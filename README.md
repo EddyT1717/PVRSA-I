@@ -10,7 +10,7 @@ Quantower C# overlay indicator implementing the PVRSA context pack:
 - YDay / LWeek high-low
 - ADR / AWR / AMR / RD / RW range projections
 - DST-aware session boxes, Psy Hi/Lo, DST table
-- Vector-candle zones (unrecovered liquidity)
+- PVSRA-candle zones (unrecovered liquidity)
 
 Chart-displayed product name: **PVRSAIndicator**.
 
