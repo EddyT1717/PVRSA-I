@@ -1,6 +1,6 @@
 # PVRSA Indicator
 
-![[PVRSA-Indicator.png]]
+![PVRSA]([http://url/to/img.png](https://github.com/EddyT1717/PVRSA-I/blob/main/PVRSA-Indicator.png?raw=true))
 
 Quantower C# overlay indicator implementing the PVRSA context pack:
 
