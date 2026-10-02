@@ -1,5 +1,7 @@
 # PVRSA Indicator
+
 ![[PVRSA-Indicator.png]]
+
 Quantower C# overlay indicator implementing the PVRSA context pack:
 
 - PVSRA vector candles (climax / rising volume classification)
