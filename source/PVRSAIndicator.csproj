@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <!-- Quantower Build 1.147.4 now runs on .NET 10: Dashboard DLL uses System.Runtime 10.0.0.0,
+         Match the platform's .NET 10 target. -->
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>PVRSAIndicator</RootNamespace>
+    <AssemblyName>PVRSAIndicator</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Quantower installs portable (no env var for its location). Absolute HintPath so the
+         build needs no /p:QuantowerDir. DLL tree currently v1.147.4; bump if it moves again. -->
+    <Reference Include="TradingPlatform.BusinessLayer">
+      <HintPath>C:\Users\Eddyt\Desktop\Quantower\TradingPlatform\v1.147.4\bin\TradingPlatform.BusinessLayer.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

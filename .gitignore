@@ -1,0 +1,13 @@
+# Build output (dotnet)
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS noise
+.DS_Store
+Thumbs.db
