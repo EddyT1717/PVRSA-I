@@ -12,8 +12,6 @@ Quantower C# overlay indicator implementing the PVRSA context pack:
 - DST-aware session boxes, Psy Hi/Lo, DST table
 - PVSRA-candle zones (unrecovered liquidity)
 
-Chart-displayed product name: **PVRSAIndicator**.
-
 ---
 
 ## 1. Install (deploy the release file)
