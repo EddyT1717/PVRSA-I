@@ -33,7 +33,8 @@ namespace PVRSAIndicator
             TablePosition dstPos,
             Color dstBg,
             Color dstFg,
-            int zoneBorderWidth)
+            int zoneBorderWidth,
+            float labelFontSize)
         {
             if (g == null || getX == null || getY == null) return;
 
@@ -79,7 +80,7 @@ namespace PVRSAIndicator
                 {
                     Color lc = lv.LabelColor.A == 0 ? lv.Color : lv.LabelColor;
                     using (Brush br = new SolidBrush(lc))
-                    using (Font font = new Font("Segoe UI", 8f, FontStyle.Regular))
+                    using (Font font = new Font("Segoe UI", (float)labelFontSize, FontStyle.Regular))
                     {
                         SizeF sz = g.MeasureString(lv.Label, font);
                         g.DrawString(lv.Label, font, br, Math.Min(x2, clip.Right) - sz.Width - 4, y - sz.Height - 1);
@@ -87,7 +88,7 @@ namespace PVRSAIndicator
                 }
             }
 
-            using (Font labFont = new Font("Segoe UI", 8f, FontStyle.Regular))
+            using (Font labFont = new Font("Segoe UI", (float)labelFontSize, FontStyle.Regular))
             {
                 foreach (ChartLabel lab in labels)
                 {

@@ -27,6 +27,8 @@ namespace PVRSAIndicator
         public int RdOffsetInput = 24;
         [InputParameter("50% RD/W", 15, 0, 999, 1, 0)]
         public int RdOffsetInput50 = 24;
+        [InputParameter("Chart label font size", 16, 6, 24, 1, 0)]
+        public double LabelFontSize = 8;
 
         #endregion
         #region Inputs — PVSRA colors (20)
@@ -536,7 +538,7 @@ namespace PVRSAIndicator
                 ChoiceAdrTable, AdrTableBgColor, AdrTableTxtColor,
                 ShowDstTable ? _dstRows : new List<TableRow>(),
                 ChoiceDstTable, DstTableBgColor, DstTableTxtColor,
-                BorderWidth);
+                BorderWidth, LabelFontSize);
         }
 
         private void RebuildDrawings(
