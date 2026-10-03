@@ -538,7 +538,7 @@ namespace PVRSAIndicator
                 ChoiceAdrTable, AdrTableBgColor, AdrTableTxtColor,
                 ShowDstTable ? _dstRows : new List<TableRow>(),
                 ChoiceDstTable, DstTableBgColor, DstTableTxtColor,
-                BorderWidth, LabelFontSize);
+                BorderWidth, (float)LabelFontSize);
         }
 
         private void RebuildDrawings(
