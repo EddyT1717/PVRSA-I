@@ -15,7 +15,7 @@
     <!-- Quantower installs portable (no env var for its location). Absolute HintPath so the
          build needs no /p:QuantowerDir. DLL tree currently v1.147.4; bump if it moves again. -->
     <Reference Include="TradingPlatform.BusinessLayer">
-      <HintPath>C:\Users\Eddyt\Desktop\Quantower\TradingPlatform\v1.147.4\bin\TradingPlatform.BusinessLayer.dll</HintPath>
+      <HintPath>CHANGE-ME\bin\TradingPlatform.BusinessLayer.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>
