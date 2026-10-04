@@ -20,7 +20,7 @@ Quantower C# overlay indicator implementing the PVRSA context pack:
 > `PVRSAIndicator.dll` goes here:
 
 Currant build is in Release folder `PVRSA-I.zip`.
-1. Copy Folder `PVRSA` to Quantower's custom-indicator folder:
+1. Extract `PVRSA` folder from zip file, Copy Folder `PVRSA` to Quantower's custom-indicator folder:
    `...\Quantower\Settings\Scripts\Indicators\`
 2. Restart Quantower if open.
 3. Add **PVRSAIndicator** to a price chart.
