@@ -1,13 +1,29 @@
-# Build output (dotnet)
+# Build results
 bin/
 obj/
+[Tt]emp/
+[Dd]ebug/
+[Rr]elease/
 
-# IDE
+# Visual Studio files
 .vs/
-.vscode/
 *.user
 *.suo
+*.sln.docstats
+*.csproj.user
+*.veu
+*.vsln
 
-# OS noise
+# User-specific files
+*.userprefs
+*.perspective
+*.baseline
+
+# Operating System files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Logs and other
+*.log
+*.tmp
